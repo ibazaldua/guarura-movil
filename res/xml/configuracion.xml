@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory 
+		android:title="@string/frecuentes">
+		
+		<CheckBoxPreference
+			android:key="chkDefRemarcar"
+			android:title="@string/conf_title_def_remarcar"
+			android:defaultValue="false"
+			android:summary="@string/conf_desc_def_remarcar" />
+		
+		<ListPreference
+			android:key="txtDefTiempoRemarcar"
+			android:title="@string/conf_title_def_tiempo_remarcar"
+			android:summary="@string/conf_desc_def_tiempo_remarcar"
+			android:dialogTitle="@string/conf_title_def_tiempo_remarcar"
+			android:entries="@array/array_values_seconds_redial"
+			android:entryValues="@array/array_values_seconds_redial"
+			android:defaultValue="10"
+			 />
+			 
+		<PreferenceScreen 
+			android:title="@string/conf_title_alarma"
+			android:summary="@string/conf_desc_alarma">
+			
+			<CheckBoxPreference
+				android:key="chkDefAlarmaRepetitiva"
+				android:title="@string/conf_title_def_alarma_repetitiva"
+				android:summary="@string/conf_desc_def_alarma_repetitiva"
+				android:defaultValue="false"
+				/>
+				
+			<ListPreference
+				android:key="txtDefTiempoAlarma"
+				android:title="@string/conf_title_def_tiempo_alarma"
+				android:summary="@string/conf_desc_def_tiempo_alarma"
+				android:dialogTitle="@string/conf_title_def_tiempo_alarma"
+				android:entries="@array/array_values_seconds_alarm"
+				android:entryValues="@array/array_values_seconds_alarm"
+				android:defaultValue="10"
+				 />
+				 
+			<CheckBoxPreference
+				android:key="chkAlarmaVibrar"
+				android:title="@string/conf_title_def_alarma_vibrar"
+				android:summary="@string/conf_desc_def_alarma_vibrar"
+				android:defaultValue="true"
+				/>
+			
+			<!-- <RingtonePreference
+				android:key="rtPreference"
+				android:title="Sonido Alarma"
+				android:summary="Sonido para la alarma a reproducir antes de que finalice la llamada."
+				android:ringtoneType="all"
+				android:shouldDisableView="true"
+				/>-->
+		</PreferenceScreen>
+			 
+		<PreferenceScreen 
+			android:title="@string/conf_title_tiempo_cortar"
+			android:summary="@string/conf_desc_tiempo_cortar">
+			<ListPreference
+			android:key="txtDefTiempoMinutos"
+			android:title="@string/conf_title_tiempo_minutos"
+			android:summary="@string/conf_desc_tiempo_minutos"
+			android:dialogTitle="@string/conf_title_tiempo_minutos"
+			android:entries="@array/array_values_minutes_seconds"
+			android:entryValues="@array/array_values_minutes_seconds"
+			android:defaultValue="00"
+			/>
+				
+			<ListPreference
+			android:key="txtDefTiempoSegundos"
+			android:title="@string/conf_title_tiempo_segundos"
+			android:summary="@string/conf_desc_tiempo_segundos"
+			android:dialogTitle="@string/conf_title_tiempo_segundos"
+			android:entries="@array/array_values_minutes_seconds"
+			android:entryValues="@array/array_values_minutes_seconds"
+			android:defaultValue="00"
+			/>
+		</PreferenceScreen>
+		
+		<CheckBoxPreference
+			android:key="chkDefVibrarDetFrecuente"
+			android:title="@string/conf_title_def_vibrar_det_frecuente"
+			android:summary="@string/conf_desc_def_vibrar_det_frecuente"
+			android:defaultValue="true"
+			/> 
+			
+		<CheckBoxPreference
+			android:key="chkDefOpcionRemarcar"
+			android:title="@string/conf_title_def_opcion_remarcar"
+			android:summary="@string/conf_desc_def_opcion_remarcar"
+			android:defaultValue="true"
+			/>
+<!-- 
+		<CheckBoxPreference
+			android:key="chkDefControlarEntrante"
+			android:title="@string/conf_title_def_controlar_entrante"
+			android:summary="@string/conf_desc_def_controlar_entrante"
+			android:defaultValue="false"
+			/>
+ -->		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+			android:title="@string/total_llamadas">
+			<ListPreference
+				android:key="txtDefDiaCorte"
+				android:title="@string/conf_title_def_dia_corte"
+				android:summary="@string/conf_desc_def_dia_corte"
+				android:dialogTitle="@string/conf_title_def_dia_corte"
+				android:entries="@array/array_values_dias"
+				android:entryValues="@array/array_values_dias"
+				android:defaultValue="1"
+				/>
+			
+			<CheckBoxPreference
+				android:key="chkDefTiempoRedondeado"
+				android:title="@string/conf_title_def_tiempo_redondeado"
+				android:summary="@string/conf_desc_def_tiempo_redondeado"
+				android:defaultValue="false"
+				/>
+				
+			<CheckBoxPreference
+				android:key="chkDefMostrarFrecuentes"
+				android:title="@string/conf_title_def_mostrar_frecuentes"
+				android:summary="@string/conf_desc_def_mostrar_frecuentes"
+				android:defaultValue="true"
+				/>
+			
+			<CheckBoxPreference
+				android:key="chkDefRegistrarTodo"
+				android:title="@string/conf_title_def_registrar_todo"
+				android:summary="@string/conf_desc_def_registrar_todo"
+				android:defaultValue="false"
+				/>
+			
+		<PreferenceScreen 
+			android:title="@string/conf_title_alarma_tiempo"
+			android:summary="@string/conf_desc_alarma_tiempo">
+
+		    
+		    
+            <intent android:action=".activity.ConfAlarmaMinutosActivity"/> 
+		</PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

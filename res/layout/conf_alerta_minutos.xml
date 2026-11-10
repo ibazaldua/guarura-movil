@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/minutosPlan"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <EditText
+        android:id="@+id/txtDefMinutosPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="0.10"
+        android:ems="10"
+        android:inputType="number" android:maxLength="5" android:gravity="center_horizontal" android:selectAllOnFocus="true" android:hint="@string/minutosPlan" android:lines="1"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/bottom_bar" />
+
+    <TextView
+        android:id="@+id/lblAlerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/porcentajeAlerta"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <SeekBar
+        android:id="@+id/skbPorcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" android:layout_marginRight="15dp" android:layout_marginLeft="15dp"/>
+
+</LinearLayout>

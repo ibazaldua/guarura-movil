@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="menu_agregar_agenda" />
+	<item type="id" name="menu_agregar_sim" />
+	<item type="id" name="menu_eliminar_todos" />    
+	<item type="id" name="menu_eliminar" />
+	<item type="id" name="menu_agregar_numero" />
+	<item type="id" name="menu_agregar_historial" />
+	<item type="id" name="menu_tiempo_redondeado" />
+	<item type="id" name="menu_numeros_frecuentes" />
+</resources>

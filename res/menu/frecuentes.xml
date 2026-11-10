@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@id/menu_agregar_agenda" 
+        android:title="@string/agregar_frecuente" 
+        android:icon="@drawable/ic_menu_agregar_contacto"
+        android:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@id/menu_agregar_sim"
+        android:title="@string/contactoSIM" 
+        android:icon="@drawable/ic_menu_agregar_contacto_sim"  
+        android:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@id/menu_eliminar_todos"
+        android:title="@string/eliminar_todos"
+        android:icon="@drawable/ic_menu_eliminar_contactos"
+        android:showAsAction="ifRoom|withText"/>
+</menu>

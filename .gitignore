@@ -1,0 +1,13 @@
+bin/
+gen/
+*.apk
+*.ap_
+*.dex
+*.class
+*.bak
+*.keystore
+*.jks
+PrivateKey*
+local.properties
+.settings/
+.metadata/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@id/menu_tiempo_redondeado" 
+        android:title="@string/tiempo_normal" 
+        android:icon="@drawable/menu_tipo_minutos"
+        android:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@id/menu_numeros_frecuentes" 
+        android:title="@string/no_mostrar_frecuentes" 
+        android:showAsAction="ifRoom|withText"/>
+</menu>

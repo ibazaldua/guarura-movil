@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:background="@null" >
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/icon" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/lblNombre"
+            style="@style/elemento_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/lblFecha"
+            android:layout_toRightOf="@+id/imgFoto"
+            android:fitsSystemWindows="false" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblDuracionLlamada"
+            style="@style/elemento_secundario"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|right">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblNombre"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/lblFecha"
+            android:src="@android:drawable/ic_menu_call" >
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgTipo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/lblNombre"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/lblNombre" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/lblTelefono"
+            style="@style/elemento_secundario"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imgTipo"
+            android:lines="1"
+ >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblFecha"
+            style="@style/elemento_secundario"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imgTipo"
+            android:layout_toLeftOf="@+id/lblDuracionLlamada"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/lblHora"
+            style="@style/elemento_secundario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblFecha"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/lblFecha"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

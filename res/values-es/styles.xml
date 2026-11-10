@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="header_pantallas">
+	    <item name="android:textColor">#000000</item>
+	    <item name="android:textSize">20dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:shadowColor">#A9A9A9</item>
+	    <item name="android:shadowDx">5</item>
+	    <item name="android:shadowDy">5</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+	</style>
+	
+	<style name="totales">
+	    <item name="android:textColor">#000000</item>
+	    <item name="android:textSize">18dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:shadowColor">#A9A9A9</item>
+	    <item name="android:shadowDx">5</item>
+	    <item name="android:shadowDy">5</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+	</style>    
+	
+	<style name="totalesYellow">
+	    <item name="android:textColor">#ff6200</item>
+	    <item name="android:textSize">18dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:shadowColor">#A9A9A9</item>
+	    <item name="android:shadowDx">5</item>
+	    <item name="android:shadowDy">5</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+	</style>
+	
+	<style name="totalesRed">
+	    <item name="android:textColor">#fc004b</item>
+	    <item name="android:textSize">18dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:gravity">center_vertical</item>
+	    <item name="android:shadowColor">#A9A9A9</item>
+	    <item name="android:shadowDx">5</item>
+	    <item name="android:shadowDy">5</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+	</style>
+
+	
+	<style name="elemento_principal">
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">17dp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">5</item>
+	    <item name="android:shadowDy">5</item>
+	    <item name="android:shadowRadius">3</item>
+	    <item name="android:lines">1</item>
+	</style>
+	
+	<style name="elemento_secundario">
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">14dp</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">3</item>
+	    <item name="android:shadowDy">3</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+	</style>
+	
+	<style name="titulos_acercade">
+	    <item name="android:textColor">#DC143C</item>
+	    <item name="android:textSize">18dp</item>
+	    <item name="android:textStyle">bold</item>
+<!-- 	    <item name="android:shadowColor">#FFFFFF</item>
+	    <item name="android:shadowDx">3</item>
+	    <item name="android:shadowDy">3</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+ -->
+	</style>
+	
+	<style name="email_acercade">
+	    <item name="android:textColor">#DC143C</item>
+	    <item name="android:textSize">14dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:autoLink">email</item>
+	</style>
+	
+	<style name="valores_acercade">
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">15dp</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="titulos_menus">
+	    <item name="android:textColor">#FFFFFF</item>
+	    <item name="android:textSize">10dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#A9A9A9</item>
+	    <item name="android:shadowDx">5</item>
+	    <item name="android:shadowDy">5</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:lines">1</item>
+	</style>
+</resources>

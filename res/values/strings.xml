@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<string name="tab_1_entrantes">Incoming</string>
+		<string name="tab_2_salientes">Outgoing</string>
+		<string name="tab_3_perdidas">Missed</string>
+		<string name="tab_4_todas">All</string>
+		<string name="tab_5_rechazadas">Rejected</string>
+		<string name="app_name">Guarura Movil</string>
+		<string name="corta_llamada">Frequent Numbers</string>
+		<string name="total_llamadas">Consult Calls</string>
+		<string name="total_mensajes">Total Messages</string>
+		<string name="regresar">Go Back</string>
+		<string name="labelTiempoCortarLlamadas">Ending Calls Time</string>
+		<string name="minutos">Minutes</string>
+		<string name="segundos">Seconds</string>
+		<string name="fechaInicial">Initial Date</string>
+		<string name="fechaFinal">Final Date</string>
+		<string name="totalLlamadas">Total Calls</string>
+		<string name="duracionLlamdas">Duration Calls</string>
+		<string name="filtro_fechas">Date Filter</string>
+		<string name="alert_dialog_ok">Accept</string>
+		<string name="alert_dialog_cancel">Cancel</string>
+		<string name="periodo">Period</string>
+		<string name="call.id.private">Private Number</string>
+		<string name="eliminar_todos">Delete All</string>
+		<string name="frecuentes">Frequent Numbers</string>
+		<string name="finalizar">End</string>
+		<string name="remarcar">Redial</string>
+		<string name="min_seg_ceros">00:00</string>
+		<string name="agregar_frecuente">Frequent</string>
+		<string name="duracion_llamada">Duration Call</string>
+		<string name="remarcar_numero">Redial %1$s</string>
+		<string name="remarcando_numero">Redialing %1$s</string>
+		<string name="eliminando_todos">Deleting all...</string>
+		<string name="eliminando_elemento">Deleting %1$s</string>
+		<string name="configuracion">Configuration</string>
+		<string name="acerca_de">About...</string>
+		<string name="seleccionar_telefono">Select phone number</string>
+		<string name="tiempo_redondeado">Time Bill</string>
+		<string name="tiempo_normal">Call Time</string>
+		<string name="mostrar_frecuentes">Show Frequent</string>
+		<string name="no_mostrar_frecuentes">Don\'t Show Frequent</string>
+		<string name="contacto_desconocido">Unknowing</string>
+		<string name="version">Version</string>
+		<string name="author">Developer</string>
+		<string name="email">Email</string>
+		<string name="design">Design</string>
+		<string name="designName"></string>
+		<string name="support">Support</string>
+		<string name="authorName">Bazaldúa Bros. Solutions</string>
+		<string name="emailValue">support@bazalduabrossolutions.com</string>
+		<string name="emailValue2"></string>
+		<string name="versionValue">1.3</string>
+		<string name="al">to</string>
+		<string name="agregar_numero">Phone</string>
+		<string name="agregar_numero_agenda">Phone Address Book</string>
+		<string name="contactoSIM">Phone SIM</string>
+		<string name="contactoHistorial">Phone Record</string>
+		<string name="listaNegra">Protection</string>
+		<string name="telefono">Phone</string>
+		
+		<string name="minutosPlan">Minutes in your plan</string>
+		<string name="porcentajeAlerta">Warning</string>
+    
+		<string name="operacion_llamar">Call</string>
+		<string name="operacion_modificar">Modify</string>
+		<string name="operacion_eliminar">Delete </string>
+		
+		<!-- Configuración -->
+		<string name="conf_title_def_remarcar">Redial by default</string>
+		<string name="conf_desc_def_remarcar"> Default value when add/modify frequent numbers </string>
+		<string name="conf_title_def_tiempo_alarma">Seconds before hang up</string>
+		<string name="conf_desc_def_tiempo_alarma">It will sound seconds before ending phone call</string>
+		<string name="conf_title_def_tiempo_remarcar"> Waiting seconds before redialing</string>
+		<string name="conf_desc_def_tiempo_remarcar">Waiting seconds to redial after ending call</string>
+		<string name="conf_title_def_dia_corte">Final Day before bill</string>
+		<string name="conf_desc_def_dia_corte">Sets initial day of the month to consult calls from that day.</string>
+		<string name="conf_title_tiempo_cortar">Default time</string>
+		<string name="conf_desc_tiempo_cortar">Sets default time to show in the add/modify of frequent numbers.</string>
+		<string name="conf_title_tiempo_minutos">Minutes</string>
+		<string name="conf_desc_tiempo_minutos">Sets default minutes to show in the add/modify of frequent numbers.</string>
+		<string name="conf_title_tiempo_segundos">Seconds</string>
+		<string name="conf_desc_tiempo_segundos">Sets default seconds to show in the add/modify of frequent numbers.</string> 
+		<string name="conf_title_def_alarma_repetitiva">Repetitive</string>
+		<string name="conf_desc_def_alarma_repetitiva">Sets if the alarm will repeat until the phone call ends.</string>
+		<string name="conf_title_alarma">Alarm</string>
+		<string name="conf_desc_alarma">Defining parameters for the alarm before ending phone call.</string>
+		<string name="conf_title_def_tiempo_redondeado">Rounded call duration.</string>
+		<string name="conf_desc_def_tiempo_redondeado">Rounded duration of calls.</string>
+		<string name="conf_title_def_mostrar_frecuentes">Show Frequents</string>
+		<string name="conf_desc_def_mostrar_frecuentes">Identifies whether or not show the frequent numbers calls in the query.</string>
+		<string name="conf_title_def_alarma_vibrar">Vibrate</string>
+		<string name="conf_desc_def_alarma_vibrar">Phone will vibrate when alarm sounds.</string>
+		<string name="conf_title_def_vibrar_det_frecuente">Frequent Vibration.</string>
+		<string name="conf_desc_def_vibrar_det_frecuente">Vibrate at the time to detect that the call is being made to a frequent number.</string>
+		<string name="conf_title_def_opcion_remarcar">Redial at end</string>
+		<string name="conf_desc_def_opcion_remarcar">Gives the option to redial when you end the call manually after having sounded the alarm. Only this will send the option if the configuration was selected frequent number redial.</string>
+		<string name="conf_title_def_controlar_entrante">Controls Incoming</string>
+		<string name="conf_desc_def_controlar_entrante">Also takes control of the incoming call if it is a frequent number.</string>
+		<string name="conf_title_def_registrar_todo">Register All</string>
+		<string name="conf_desc_def_registrar_todo">It records all call history unlimited.</string>
+		<string name="conf_title_alarma_tiempo">Define minutes of your plan</string>
+		<string name="conf_desc_alarma_tiempo">It defines the minutes of the plan that has contracted with the operator, in order to display a visual warning if you are reaching the limit of minutes or already passed.</string>
+		<string name="conf_title_def_minutos_plan">Minutes in your plan</string>
+		<string name="conf_desc_def_minutos_plan">Sets the time taken into your plan to establish a visual alert.</string>
+		
+		<!-- Mensajes Validacion -->
+		<string name="toast_data_not_found">Data not found</string>
+		<string name="toast_number_not_found">Contact without phone number</string>
+		<string name="toast_finalize_call">Ending Call by Guarura Móvil</string>
+		
+		<!-- Dialogos -->
+		<string name="dialog_msg_wait">Wait please...</string>
+		<string name="dialog_msg_processing">Consulting your calls...</string>
+		<string name="dialog_title_confirm">Confirm</string>
+		<string name="dialog_button_cancel">Cancel</string>
+		<string name="dialog_title_operation">Operation</string>
+		<string name="dialog_msg_eliminar_frecuentes">Delete frequent numbers?</string>
+		<string name="dialog_msg_eliminar_frecuente">Delete frequent number?</string>
+		<string name="dialog_msg_eliminar_todos_lista_negra">Delete numbers?</string>
+		<string name="dialog_msg_eliminar_numero_lista_negra">Delete number?</string>
+		<string name="dialog_msg_agregar_lista_negra">Protection against %1$s?</string>
+		
+		<!-- Notificaciones -->
+		<string name="notif_control_call">Guarura Móvil controlling call...</string>
+		<string name="notif_time">Guarura Móvil (%1$s)</string>
+		<string name="notif_control_dismiss">Rejected %1$s by Guarura Móvil</string>
+		<string name="notif_title_llamada_recahzada">Call rejected by Guarura Móvil</string>
+    	<string name="notif_msg_no_disp_free">Not available in free version</string>
+    	<string name="notif_msg_no_disp_mayor3_free">Not allowed more than 3 minutes in Free version</string>
+    	<string name="notif_msg_no_disp_segundos_free">Not allowed modification of seconds in Free version</string>
+    	<string name="notif_msg_no_disp_maximo_5_registros">Maximum 5 records in Free version</string>
+		<string name="notif_title_alerta_tiempo">Minutes made %1$s, you have %2$s minutes.</string>
+		<string name="notif_title_tiempo_excedido">Timeout by %1$s minutes.</string>
+		<string name="notif_title_alerta">Guarura Móvil Warning.</string>
+		
+		<!-- TIPOS DE TELEFONO -->
+		<string name="type_home">Home</string>
+		<string name="type_mobile">Mobile</string>
+		<string name="type_work">Job</string>
+		<string name="type_work_mobile">Job Mobile</string>
+		<string name="type_work_pager">Job Pager</string>
+		<string name="type_assistant">Assistant</string>
+		<string name="type_fax_home">Fax</string>
+		<string name="type_fax_work">Job Fax</string>
+		<string name="type_other_fax">Other Fax</string>
+		<string name="type_custom">Personalized</string>
+		<string name="type_other">Other</string>
+		
+		<!-- PRUEBAS -->
+		<string name="check_license">Check license</string>
+		<string name="checking_license">Checking license...</string>
+		<string name="dont_allow">Don\'t allow the user access</string>
+		<string name="allow">Allow the user access</string>
+		<string name="application_error">Application error: %1$s</string>
+		
+		<!-- Unlicensed dialog messages -->
+		<string name="unlicensed_dialog_title">Application not licensed</string>
+		<string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+		<string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+		<string name="buy_button">Buy app</string>
+		<string name="retry_button">Retry</string>
+		<string name="quit_button">Exit</string>    
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_1_entrantes">Entrantes</string>
+    <string name="tab_2_salientes">Salientes</string>
+    <string name="tab_3_perdidas">Perdidas</string>
+    <string name="tab_4_todas">Todas</string>
+    <string name="tab_5_rechazadas">Rechazadas</string>
+    <string name="app_name">Guarura Móvil Free</string>
+    <string name="corta_llamada">Números Frecuentes</string>
+    <string name="total_llamadas">Consulta Llamadas</string>
+    <string name="total_mensajes">Total Mensajes</string>
+    <string name="regresar">Regresar</string>
+    <string name="labelTiempoCortarLlamadas">Tiempo para cortar llamadas</string>
+    <string name="minutos">Minutos</string>
+    <string name="segundos">Segundos</string>
+    <string name="fechaInicial">Fecha Inicial</string>
+    <string name="fechaFinal">Fecha Final</string>
+    <string name="totalLlamadas">Total Llamadas</string>
+    <string name="duracionLlamdas">Duración Llamadas</string>
+    <string name="filtro_fechas">Filtro Fechas</string>
+    <string name="alert_dialog_ok">Aceptar</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="periodo">Periodo</string>
+    <string name="call.id.private">Número Privado</string>
+    <string name="eliminar_todos">Eliminar Todos</string>
+    <string name="frecuentes">Números Frecuentes</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="remarcar">Remarcar</string>
+    <string name="min_seg_ceros">00:00</string>
+    <string name="agregar_frecuente">Frecuente</string>
+    <string name="duracion_llamada">Duración Llamada</string>
+    <string name="remarcar_numero">Remarcar %1$s</string>
+    <string name="remarcando_numero">Remarcando %1$s</string>
+    <string name="eliminando_todos">Eliminando todos...</string>
+    <string name="eliminando_elemento">Eliminando %1$s</string>
+    <string name="configuracion">Configuración</string>
+    <string name="acerca_de">Acerca de...</string>
+    <string name="seleccionar_telefono">Seleccione teléfono</string>
+    <string name="tiempo_redondeado">Tiempo a Facturar</string>
+    <string name="tiempo_normal">Tiempo Llamada</string>
+    <string name="mostrar_frecuentes">Mostrar Frecuentes</string>
+    <string name="no_mostrar_frecuentes">NO Mostrar Frecuentes</string>
+    <string name="contacto_desconocido">Desconocido</string>
+    <string name="version">Versión</string>
+    <string name="author">Desarrollador</string>
+    <string name="email">Correos</string>
+    <string name="design">Diseño</string>
+    <string name="designName"></string>
+    <string name="support">Soporte</string>
+    <string name="authorName">Bazaldúa Bros. Solutions</string>
+    <string name="emailValue">bazalduabrossolutions@gmail.com</string>
+    <string name="emailValue2"></string>
+    <string name="versionValue">1.3</string>
+    <string name="al">al</string>
+    <string name="agregar_numero">Teléfono</string>
+    <string name="agregar_numero_agenda">Teléfono Agenda</string>
+    <string name="contactoSIM">Teléfono SIM</string>
+    <string name="contactoHistorial">Teléfono Historial</string>
+    <string name="listaNegra">Protección</string>
+    <string name="telefono">Teléfono</string>
+    
+	<string name="minutosPlan">Minutos Renta</string>
+	<string name="porcentajeAlerta">Alerta</string>
+    
+    <string name="operacion_llamar">Llamar</string>
+    <string name="operacion_modificar">Modificar</string>
+    <string name="operacion_eliminar">Eliminar</string>
+    
+    <!-- Configuración -->
+    <string name="conf_title_def_remarcar">Remarcar por default</string>
+    <string name="conf_desc_def_remarcar">Valor por default al dar de alta/modificar números frecuentes.</string>
+    <string name="conf_title_def_tiempo_alarma">Segundos antes de colgar</string>
+    <string name="conf_desc_def_tiempo_alarma">Sonará segundos antes de finalizar la llamada.</string>
+    <string name="conf_title_def_tiempo_remarcar">Segundos de espera para volver a marcar</string>
+    <string name="conf_desc_def_tiempo_remarcar">Segundos de espera para volver a marcar después de finalizada la llamada.</string>
+    <string name="conf_title_def_dia_corte">Día corte</string>
+    <string name="conf_desc_def_dia_corte">Establece el día inicial del mes para poder realizar la consulta de llamadas de a partir de ese día.</string>
+    <string name="conf_title_tiempo_cortar">Tiempo Default</string>
+    <string name="conf_desc_tiempo_cortar">Establece el tiempo default para mostrar en la alta/modificación de numeros frecuentes.</string>
+    <string name="conf_title_tiempo_minutos">Minutos</string>
+    <string name="conf_desc_tiempo_minutos">Establece los minutos default a mostrar en la alta/modificar números frecuentes</string>
+    <string name="conf_title_tiempo_segundos">Segundos</string>
+    <string name="conf_desc_tiempo_segundos">Establece los segundos default a mostrar en la alta/modificar números frecuentes</string>    
+    <string name="conf_title_def_alarma_repetitiva">Repetitiva</string>
+    <string name="conf_desc_def_alarma_repetitiva">Establece si la alarma se repetirá hasta que la llamada se finalice.</string>
+    <string name="conf_title_alarma">Alarma</string>
+    <string name="conf_desc_alarma">Se definen los parámetros para la alarma antes de finalizar la llamada.</string>
+    <string name="conf_title_def_tiempo_redondeado">Duración llamada redondeado</string>
+    <string name="conf_desc_def_tiempo_redondeado">Redondea la duración en las llamadas.</string>
+    <string name="conf_title_def_mostrar_frecuentes">Mostrar frecuentes</string>
+    <string name="conf_desc_def_mostrar_frecuentes">Identifica si se mostrarán o no los números frecuentes en la consulta de llamadas.</string>
+    <string name="conf_title_def_alarma_vibrar">Vibrar</string>
+    <string name="conf_desc_def_alarma_vibrar">El teléfono vibrará cuando suene la alarma.</string>
+    <string name="conf_title_def_vibrar_det_frecuente">Vibrar Frecuente</string>
+    <string name="conf_desc_def_vibrar_det_frecuente">Vibrar al momento en detetctar que se esta realizando la llamada a un número frecuente.</string>
+    <string name="conf_title_def_opcion_remarcar">Remarcar al finalizar</string>
+    <string name="conf_desc_def_opcion_remarcar">Da la opción de volver a marcar cuando se finaliza la llamada manualmente despues de haber sonado la alarma. Sólo esta mandara la opcion si en la configuración del número frecuente se seleccionó Remarcar</string>
+    <string name="conf_title_def_controlar_entrante">Controlar Entrante</string>
+    <string name="conf_desc_def_controlar_entrante">Toma tambien el control de la llamada entrante si se trata de un número frecuente.</string>
+	<string name="conf_title_def_registrar_todo">Registrar Todo</string>
+	<string name="conf_desc_def_registrar_todo">Registra todo el historial de llamadas sin límites de registros.</string>
+	<string name="conf_title_alarma_tiempo">Define minutos renta</string>
+	<string name="conf_desc_alarma_tiempo">Se define los minutos de renta que se tenga contratados con su operador, para poder mostrar una alerta visual si se está alcanzando el límite de minutos o si ya se pasó.</string>
+	<string name="conf_title_def_minutos_plan">Minutos en renta</string>
+	<string name="conf_desc_def_minutos_plan">Define los minutos que se tienen en el plan de renta para establecer una alerta visual.</string>
+    
+    <!-- Mensajes Validacion -->
+    <string name="toast_data_not_found">No se encontraron datos</string>
+    <string name="toast_number_not_found">Contacto sin número telefónico.</string>
+    <string name="toast_finalize_call">Llamada finalizada por Guarura Móvil</string>
+    
+    <!-- Dialogos -->
+    <string name="dialog_msg_wait">Espere por favor...</string>
+    <string name="dialog_msg_processing">Consultando sus llamadas...</string>
+    <string name="dialog_title_confirm">Confirmar</string>
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="dialog_title_operation">Operación</string>
+    <string name="dialog_msg_eliminar_frecuentes">¿Eliminar números frecuentes?</string>
+    <string name="dialog_msg_eliminar_frecuente">¿Eliminar número frecuente?</string>
+    <string name="dialog_msg_eliminar_todos_lista_negra">¿Eliminar números?</string>
+    <string name="dialog_msg_eliminar_numero_lista_negra">¿Eliminar número?</string>
+    <string name="dialog_msg_agregar_lista_negra">¿Protección contra %1$s?</string>
+    
+    <!-- Notificaciones -->
+    <string name="notif_control_call">Guarura Móvil controlando llamada...</string>
+    <string name="notif_time">Guarura Móvil (%1$s)</string>
+    <string name="notif_control_dismiss">Rechazado %1$s por Guarura Móvil</string>
+    <string name="notif_title_llamada_recahzada">Llamada rechazada por Guarura Móvil</string>
+    <string name="notif_msg_no_disp_free">No disponible en versión Free</string>
+    <string name="notif_msg_no_disp_mayor3_free">No se permiten más de 3 minutos en versión Free</string>
+    <string name="notif_msg_no_disp_segundos_free">No se permite modificación de segundos en versión Free</string>
+    <string name="notif_msg_no_disp_maximo_5_registros">Máximo 5 registros en versión Free</string>
+	<string name="notif_title_alerta_tiempo">Minutos realizados %1$s, le quedan %2$s minutos.</string>
+	<string name="notif_title_tiempo_excedido">Tiempo excedido por %1$s minutos.</string>
+	<string name="notif_title_alerta">Alerta Guarura Móvil.</string>
+    
+    <!-- TIPOS DE TELEFONO -->
+    <string name="type_home">Casa</string>
+    <string name="type_mobile">Móvil</string>
+    <string name="type_work">Trabajo</string>
+    <string name="type_work_mobile">Trabajo Mobile</string>
+    <string name="type_work_pager">Paginador Trabajo</string>
+    <string name="type_assistant">Asistente</string>
+    <string name="type_fax_home">Fax</string>
+    <string name="type_fax_work">Fax Trabajo</string>
+    <string name="type_other_fax">Otro Fax</string>
+    <string name="type_custom">Personalizado</string>
+    <string name="type_other">Otro</string>
+<!-- PRUEBAS -->
+    <string name="check_license">Check license</string>
+    <string name="checking_license">Checking license...</string>
+    <string name="dont_allow">Don\'t allow the user access</string>
+    <string name="allow">Allow the user access</string>
+    <string name="application_error">Application error: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="unlicensed_dialog_retry_body">Unable to validate license. Check to see if a network connection is available.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="retry_button">Retry</string>
+    <string name="quit_button">Exit</string>
+    
+</resources>

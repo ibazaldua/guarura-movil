@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/fondo"
+        android:gravity="center_horizontal" android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgFoto"
+            android:gravity="center_horizontal|left"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingLeft="3dp"
+            android:text="TextView"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#FFFFFF">
+</TextView>
+        <TextView android:layout_width="match_parent" android:id="@+id/lblTelefono" android:text="TextView" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/lblNombre" android:maxLines="1" android:layout_alignLeft="@+id/chkRemarcar" android:gravity="right" android:textColor="#FFFFFF"></TextView>
+        <TextView android:layout_width="match_parent" android:id="@+id/lblTipo" android:text="TextView" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/lblTelefono" android:layout_alignBottom="@+id/lblTelefono" android:layout_toRightOf="@+id/imgFoto" android:maxLines="1" android:gravity="center_horizontal|left" android:lines="1" android:paddingLeft="3dp" android:textColor="#FFFFFF"></TextView>
+        <TextView android:id="@+id/textView2" android:text="@string/duracion_llamada" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_horizontal" android:layout_below="@+id/chkRemarcar" android:layout_alignParentLeft="true" android:textColor="#FFFFFF"></TextView>
+        <ImageView android:src="@drawable/icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:id="@+id/imgFoto"></ImageView>
+        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remarcar" android:gravity="center|center_horizontal" android:id="@+id/chkRemarcar" android:layout_below="@+id/imgFoto" android:layout_centerHorizontal="true" android:focusable="true" android:textColor="#FFFFFF"></CheckBox>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_below="@+id/textView2" android:layout_alignRight="@+id/chkRemarcar" android:layout_alignLeft="@+id/chkRemarcar">
+            <EditText android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:inputType="number" android:maxLength="2" android:text="00" android:gravity="center_horizontal" android:layout_width="match_parent" android:id="@+id/txtMinutos" android:hint="Min" android:selectAllOnFocus="true">
+                <requestFocus></requestFocus>
+            </EditText>
+            <EditText android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:inputType="number" android:maxLength="2" android:gravity="center_horizontal" android:layout_width="match_parent" android:text="00" android:id="@+id/txtSegundos" android:hint="Seg" android:selectAllOnFocus="true"></EditText>
+        </LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>
